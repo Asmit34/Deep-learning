@@ -88,7 +88,7 @@ elif submit_info_button:
     # Acknowledge the submission and provide additional information
     st.session_state['chat_history'].append(("Bot", "Great! Please check the information you provided below."))
 
-    # Append valid user information to chat history with HTML line breaks
+    # Append valid user information to chat history
     if is_valid_email(user_email) and is_valid_phone(user_phone):
         user_info_text = f"Name: {user_name}Phone: {user_phone}Email: {user_email}"
         st.session_state['chat_history'].append(("User Info", user_info_text))
