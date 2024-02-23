@@ -20,7 +20,7 @@ import cv2
 from keras.models import load_model
 
 # Load the trained model
-model = load_model('/content/drive/MyDrive/Colab Notebooks.h5')  # Replace with your model file path
+model = load_model('/content/drive/MyDrive/cifar10.h5')  # Replace with your model file path
 
 
 
