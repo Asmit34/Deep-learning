@@ -1,0 +1,21 @@
+# Compiled Python files
+*.pyc
+
+# Compiled Python modules
+__pycache__/
+
+# Virtual environment
+.env/
+
+# IDE files
+.idea/
+
+# Model files (if you include trained model files)
+model/
+
+# Ignore any Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore the .git directory itself
+.git
+
